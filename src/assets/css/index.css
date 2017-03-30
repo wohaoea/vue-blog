@@ -1,0 +1,119 @@
+.myHome {
+    overflow: hidden
+}
+
+.navbar {
+    border: none;
+    margin-bottom: 0px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #555;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #555;
+}
+
+.navbar-default {
+    background-color: #f5f5f5;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.navbar-toggle {
+    padding: 8px 9px;
+    margin: 10px;
+}
+
+.navbar-default .navbar-brand {
+    color: #222;
+    font-family: '微软雅黑'
+}
+
+.navbar-brand {
+    padding: 0px 20px;
+    line-height: 50px;
+}
+
+.glyphicon {
+    font-size: 12px;
+}
+
+.nav>li {
+    text-align: left;
+    margin-left: .15rem;
+}
+
+.navbar-nav {
+    margin: 0px;
+}
+
+.navbar-collapse {
+    padding: 10px 10px;
+}
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 0px;
+}
+
+.myBlog {
+    margin-top: .8rem;
+}
+
+.myBlog .title {
+    font-weight: 600;
+    font-size: .3rem;
+}
+
+.myBlog .date {
+    padding-right: .2rem;
+    text-align: right
+}
+
+.myBlog .category {
+    padding-left: .2rem;
+}
+
+.myBlog .category::before {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 0;
+    width: 1px;
+    height: 10px;
+    background-color: #999;
+}
+
+.myBlog .attr {
+    margin-top: .1rem;
+    font-size: .1rem;
+    color: #999
+}
+
+.color {
+    background-color: pink;
+}
+
+.banner {
+    background: url('../images/banner.jpg') no-repeat;
+    -webkit-background-size: 100% 360px;
+    background-size: cover;
+    height: 3rem;
+}
+
+.content {
+    font-size: .15rem;
+    margin: .1rem -15px .6rem;
+    /*padding: 0 15px;*/
+    border-radius: 5px;
+    color: #555;
+}
+
+.content:hover {
+    background-color: rgba(0, 0, 0, .1);
+}
